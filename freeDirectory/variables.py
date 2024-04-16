@@ -1,0 +1,7 @@
+x = int(5)
+y = str("Serhii")
+z = float(3)
+print (x)
+print (y)
+print (z)
+print (type(x))
