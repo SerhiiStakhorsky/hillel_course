@@ -10,3 +10,9 @@ print(b)
 firstName = ["oleg".title(), "ivan".title(), "anna"]
 q, w, e = firstName
 print (q,"and", w, "is the best friends")
+
+o = 2.1
+p = complex(o)
+print(p)
+
+
