@@ -1,0 +1,7 @@
+inputNumber = input("Print the number:")
+print("Your number is", inputNumber)
+inputNumber = int(inputNumber)
+print (inputNumber // 1000)
+print(inputNumber % 1000 // 100)
+print (inputNumber % 100 // 10 )
+print(inputNumber % 10 // 1)
