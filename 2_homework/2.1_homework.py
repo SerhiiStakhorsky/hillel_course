@@ -8,6 +8,6 @@ try:
         print (inputNumber % 100 // 10 )
         print (inputNumber % 10 // 1)
     else:
-        print ("It`s not four-digit number");
+        print ("It`s not four-digit number.");
 except  ValueError:
-    print("It`s not four-digit number");
+    print("It`s not four-digit number.");
