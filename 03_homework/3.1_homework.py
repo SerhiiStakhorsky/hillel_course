@@ -1,6 +1,7 @@
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 operation = input("Enter operation (+, -, *, /): ")
+result = None
 if operation == "+":
     result = (num1 + num2)
 elif operation == "-":
@@ -14,4 +15,5 @@ elif operation == "/":
         result = (num1 / num2)
 else:
     print("Invalid operation")
-print("Result: ", num1,operation, num2,"=", result)
+if result is not None:
+    print("Result: ", num1,operation, num2,"=", result)
