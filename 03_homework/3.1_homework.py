@@ -16,4 +16,4 @@ elif operation == "/":
 else:
     print("Invalid operation")
 if result is not None:
-    print("Result: ", num1,operation, num2,"=", result)
+    print("Result: ", num1,operation, num2, "=", result)
