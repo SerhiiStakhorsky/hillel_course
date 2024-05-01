@@ -22,5 +22,4 @@ while True:
     check_continue = input("Do you want to continue (yes/no): ")
     if check_continue.lower() not in ["yes", "y"]:
         break
-
 print("Final result:", num1)
