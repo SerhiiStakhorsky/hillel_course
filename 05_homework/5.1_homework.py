@@ -12,6 +12,7 @@ negative_contractions = [
     user_variable_name in banned_keywords,
     " " in user_variable_name
 ]
+
 if any(negative_contractions):
     print(False)
 else:
