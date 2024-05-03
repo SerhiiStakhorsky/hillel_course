@@ -1,5 +1,5 @@
-num1 = float(input("Enter first number: "))
 while True:
+    num1 = float(input("Enter first number: "))
     num2 = float(input("Enter next number: "))
     operation = input("Enter operation (+, -, *, /): ")
     if operation == "+":
@@ -10,9 +10,8 @@ while True:
         num1 = num1 * num2
     elif operation == "/":
         if num2 == 0:
-            print("The numbers are not divisible by zero")
-            num1 = ValueError
-            break
+            print("The numbers are not divisible by zero")5
+            continue
         else:
             num1 = num1 / num2
     else:
