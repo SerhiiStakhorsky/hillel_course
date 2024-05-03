@@ -10,7 +10,7 @@ while True:
         num1 = num1 * num2
     elif operation == "/":
         if num2 == 0:
-            print("The numbers are not divisible by zero")5
+            print("The numbers are not divisible by zero")
             continue
         else:
             num1 = num1 / num2
