@@ -10,7 +10,8 @@ negative_contractions = [
     any(char.isupper() for char in user_variable_name),
     any(char in punctuation for char in user_variable_name),
     user_variable_name in banned_keywords,
-    " " in user_variable_name
+    " " in user_variable_name,
+    user_variable_name.count("_") >1
 ]
 
 if any(negative_contractions):
