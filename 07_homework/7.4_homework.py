@@ -5,5 +5,5 @@ def common_elements():
     intersections = multiplies_to_5 & multiplies_to_3
     return intersections
 
-
-print(common_elements())
+if __name__ == "__main__":
+    print(common_elements())
