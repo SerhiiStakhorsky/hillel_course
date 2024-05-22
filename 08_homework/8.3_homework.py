@@ -1,4 +1,4 @@
-def find_unique_value(some_list):
+def find_unique_value(some_list) -> int:
     count_dict = {}
     for num in some_list:
         count_dict[num] = count_dict.get(num, 0) + 1

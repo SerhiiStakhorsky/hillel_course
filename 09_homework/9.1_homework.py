@@ -1,4 +1,6 @@
-def popular_words(text, words):
+from typing import List, Dict
+
+def popular_words(text: str, words: List[str]) -> Dict[str, int]:
     text = text.lower()
     word_list = text.split()
     word_count = {word: 0 for word in words}

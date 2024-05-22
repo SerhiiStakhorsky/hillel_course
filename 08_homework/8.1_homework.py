@@ -1,4 +1,4 @@
-def add_one(digits):
+def add_one(digits) -> int:
     number = int(''.join(map(str, digits)))
     number += 1
     result = [int(digit) for digit in str(number)]
