@@ -5,7 +5,7 @@ class Item:
         self.dimensions = dimensions
         self.name = name
 
-    def __str__(self):
+    def __str__(self) -> str:
         return f"{self.name}, price: {self.price}"
 
 
@@ -15,7 +15,7 @@ class User:
         self.surname = surname
         self.numberphone = numberphone
 
-    def __str__(self):
+    def __str__(self) -> str:
         return f"{self.name} {self.surname}, Phone: {self.numberphone}"
 
 
@@ -28,11 +28,11 @@ class Purchase:
     def add_item(self, item, cnt):
         self.products[item] = cnt
 
-    def __str__(self):
+    def __str__(self) -> str:
         items_str = "\n".join([f"{item.name}: {cnt} pcs." for item, cnt in self.products.items()])
         return f"User: {self.user.name} {self.user.surname}\nItems:\n{items_str}"
 
-    def get_total(self):
+    def get_total(self) -> float:
         total = sum(item.price * cnt for item, cnt in self.products.items())
         return total
 
