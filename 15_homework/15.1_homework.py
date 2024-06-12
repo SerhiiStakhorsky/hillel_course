@@ -4,7 +4,7 @@ class Rectangle:
         self.width = width
         self.height = height
 
-    def get_square(self):
+    def get_square(self) -> float:
         return self.width * self.height
 
     def __eq__(self, other: 'Rectangle') -> bool:
